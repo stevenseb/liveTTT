@@ -4,7 +4,7 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    height: auto;
     width: auto;
     margin: 0;
     background: linear-gradient(to right, #599be7, #ACB6E5);
@@ -16,7 +16,7 @@ body {
     grid-template-columns: repeat(3, 100px);
     grid-template-rows: repeat(3, 100px);
     gap: 4px;
-    height: 40vh;
+    height: auto;
   }
 
   .spacer {
