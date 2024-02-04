@@ -18,6 +18,11 @@ body {
     gap: 4px;
     height: 40vh;
   }
+
+  .spacer {
+    display: block;
+    height: 10px;
+  }
   
   .cell {
     background-color: #fff;
