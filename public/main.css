@@ -15,6 +15,7 @@ body {
     display: grid;
     grid-template-columns: repeat(3, 100px);
     grid-template-rows: repeat(3, 100px);
+    margin-top: 20px;
     gap: 4px;
     height: auto;
   }
