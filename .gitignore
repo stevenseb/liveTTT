@@ -3,3 +3,4 @@ cypress/screenshots
 node_modules
 wireframes
 cypress
+cypress.json
