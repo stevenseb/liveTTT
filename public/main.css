@@ -1,0 +1,70 @@
+body {
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: auto;
+    margin: 0;
+    background: linear-gradient(to right, #599be7, #ACB6E5);
+    color: #333;
+  }
+  
+  #TTT {
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    grid-template-rows: repeat(3, 100px);
+    gap: 4px;
+    height: 40vh;
+  }
+  
+  .cell {
+    background-color: #fff;
+    border: 2px solid #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3rem;
+    font-style: italic;
+    color: red;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: 100px;
+    height: 100px;
+  }
+    
+  .cell:hover {
+    background-color: #e3e3e3;
+  }
+  
+  .game-message {
+    text-align: center;
+    margin: 0;
+    font-size: 35px;
+    color: #faf215;
+    margin-bottom: 10px;
+  }
+  
+  #resetButton, #giveUp {
+    padding: 10px 10px;
+    margin: 5px 25px;
+    font-size: 1rem;
+    color: #fff;
+    background-color: #333;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+
+  .buttons {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+  }
+  
+  #resetButton:hover, #giveUp:hover {
+    background-color: #555;
+  }
